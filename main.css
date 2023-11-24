@@ -216,30 +216,35 @@ footer {
         margin-bottom: 10px;
         margin-left: 0px;
     }
+    
     .depoimentos2 img {
         height: 148px;
         justify-content:space-between;
         margin-bottom: 10px;
         margin-left: 0px;
     }
+
     .depoimentos3 img {
         height: 148px;
         justify-content:space-between;
         margin-bottom: 10px;
         margin-left: 0px;
 }
+
 .certificados1 img {
     height: 440px;
     justify-content: space-between;
     margin-bottom: 10px;
     margin-left: 0px;
 }
+
 .certificados2 img {
     height: 440px;
     justify-content: space-between;
     margin-bottom: 10px;
     margin-left: 0;
 }
+
 section p {
     margin-bottom: 8px;
     margin-left: 5px;
@@ -262,15 +267,18 @@ section p {
     margin-right: 0;
     margin-left: 0;
 }
+
 section h2 {
     margin-left: 0;
 }
+
 header .container, 
 section .container{
     display: inline;
     align-items: center;
     justify-content: space-between;
 }
+
 form input,
 form textarea,
 form button{
