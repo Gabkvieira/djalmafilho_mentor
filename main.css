@@ -17,6 +17,20 @@ body, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    padding-left: 370px;
+}
+
+h2 {
+    font-size: 21.4px;
+    padding-left: 24px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-left: 500px;
+}
+
 header {
     padding: 10px 0;   
     background-color: #1a7894;
@@ -91,11 +105,12 @@ section p {
 
 .social-links li{
     display: inline;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .social-links li a{
     text-decoration: none;
+    padding-left: 30px;
 }
 
 #contact .container {
@@ -223,49 +238,60 @@ footer {
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .depoimentos1 img {
         height: 304px;
+        max-width: 135%;
         justify-content:space-between;
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 25px;
     }
     
     .depoimentos2 img {
         height: 148px;
+        max-width: 135%;
         justify-content:space-between;
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 25px;
     }
 
     .depoimentos3 img {
         height: 148px;
+        max-width: 135%;
         justify-content:space-between;
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 25px;
 }
 
 .certificados1 img {
     height: 440px;
+    max-width: 125%;
     justify-content: space-between;
     margin-bottom: 10px;
-    margin-left: 0px;
+    margin-left: 45px;
 }
 
 .certificados2 img {
     height: 440px;
+    max-width: 125%;
     justify-content: space-between;
     margin-bottom: 10px;
-    margin-left: 0;
+    margin-left: 45px;
+}
+
+.certificados3 img {
+    height: 440px;
+    max-width: 125%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 45px;
 }
 
 section p {
-    margin-bottom: 8px;
-    margin-left: 5px;
-    margin-right: 20px;
     color: white;
     text-align: justify;
-    font-size: 22px;
+    font-size: 20px;
+    padding-left: 65px;
 }
 .contact-methods {
     justify-content: space-between;
@@ -273,17 +299,28 @@ section p {
 
 .social-links img {
     height: 72px;
-    margin-left: 0;
+    margin-bottom: 8px;
+    padding-left: 80px;
 }
 
 .social-links li{
-    display: flex;
-    margin-right: 0;
-    margin-left: 0;
+    display: block;
 }
 
-section h2 {
-    margin-left: 0;
+h3 {
+    padding-left: 190px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+    padding-left: 90px;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 111px;
+    justify-content: center;
 }
 
 header .container, 
@@ -291,6 +328,11 @@ section .container{
     display: inline;
     align-items: center;
     justify-content: space-between;
+    padding-left: 65px;
+}
+
+form {
+    padding-left: 65px;
 }
 
 form input,
@@ -298,6 +340,109 @@ form textarea,
 form button{
     display: block;
     width: 250px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .depoimentos1 img {
+        height: 304px;
+        max-width: 77.5%;
+        justify-content:space-between;
+        margin-bottom: 10px;
+        margin-left: 90px;
+    }
+    
+    .depoimentos2 img {
+        height: 148px;
+        max-width: 100%;
+        justify-content:space-between;
+        margin-bottom: 10px;
+        margin-left: 90px;
+    }
+
+    .depoimentos3 img {
+        height: 148px;
+        max-width: 77.5%;
+        justify-content:space-between;
+        margin-bottom: 10px;
+        margin-left: 90px;
+}
+
+.certificados1 img {
+    height: 440px;
+    max-width: 125%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.certificados2 img {
+    height: 440px;
+    max-width: 125%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.certificados3 img {
+    height: 440px;
+    max-width: 125%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+section p {
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+    padding-left: 0px;
+}
+.contact-methods {
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 72px;
     margin-bottom: 8px;
-    padding: 8px;
+    padding-left: 140px;
+}
+
+.social-links li{
+    display: flex;
+}
+
+h2 {
+    padding-left: 160px;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 60px;
+    justify-content: center;
+}
+
+h3 {
+    padding-left: 270px;
+    justify-content: center;
+}
+
+header .container, 
+section .container{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+}
+
+form {
+    padding-left: 100px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 250px;
+}
 }
