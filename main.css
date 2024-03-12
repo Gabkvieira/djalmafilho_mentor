@@ -423,33 +423,51 @@ section p {
     font-size: 22px;
     padding-left: 0px;
 }
+
 .contact-methods {
-    justify-content: space-between;
+    display: block;
+    align-items: center;
 }
 
 .social-links img {
     height: 72px;
     margin-bottom: 8px;
-    padding-left: 140px;
+    padding-left: 320px;
 }
 
 .social-links li{
-    display: flex;
-}
-
-h2 {
-    padding-left: 160px;
-    justify-content: center;
+    display: block;
 }
 
 h1 {
-    padding-left: 60px;
+    padding-left: 100px;
     justify-content: center;
 }
 
-h3 {
-    padding-left: 270px;
-    justify-content: center;
+.redes h3{
+    padding-left: 280px;
+    font-size: 24px;
+}
+
+.depoimentos h3{
+    padding-left: 300px;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+}
+
+.certificados h3{
+    padding-left: 300px;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+}
+
+.contato h3{
+    padding-left: 280px;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
 }
 
 header .container, 
@@ -461,14 +479,14 @@ section .container{
 }
 
 form {
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 form input,
 form textarea,
 form button{
     display: block;
-    width: 250px;
+    width: 400px;
 }
 
 }
