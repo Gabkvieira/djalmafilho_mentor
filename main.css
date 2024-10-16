@@ -269,6 +269,7 @@ section .p1, section .p2 {
     color: white;
     text-align: justify;
     font-size: 20px;
+    padding-left: 16px;
 }
 
 section .p1 {
@@ -334,8 +335,7 @@ section .container{
 }
 
 .foto-pessoal { 
-    margin-right: 32px;
-    max-width: 100%;
+    margin-right: 0px;
 }
 
 }
