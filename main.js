@@ -1,1 +1,1 @@
-<a href="https://www.webcontadores.com" title="contador"><img src="https://counter6.optistats.ovh/private/webcontadores.php?c=scx9laj55xkkuq76fu2d1dk7j3fhw7ks" border="0" title="contador" alt="contador"></a>
+<a href="https://www.webcontadores.com" title="contadores de visitas"><img src="https://counter6.optistats.ovh/private/webcontadores.php?c=wkrj8rn5platcwqp8leyegr8s7utflfe" border="0" title="contadores de visitas" alt="contadores de visitas"></a>
